@@ -1,7 +1,7 @@
 name: Manual Trigger with Params
 
 on:
- push:
+  push:
     branches:
       - main
       - dev
