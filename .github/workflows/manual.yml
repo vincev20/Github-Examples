@@ -1,6 +1,10 @@
 name: Manual Trigger with Params
 
 on:
+ push:
+    branches:
+      - main
+      - dev
   workflow_dispatch:
     inputs:
       name:
