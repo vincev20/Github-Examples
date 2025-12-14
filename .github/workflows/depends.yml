@@ -1,6 +1,6 @@
 name: "Dep Jobs"
 
-on:['push']
+on: ['push']
 
 jobs: 
   job2:
